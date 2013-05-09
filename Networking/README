@@ -1,0 +1,15 @@
+Work in progress. 
+The plan:
+
+3 repeating servers: 
+	- berkeley sockets
+	- lib event
+	- boost asio
+
+3 clients:
+	- same three
+
+* client create 100 connections, send 100mb over per connection
+* check that what we get back is in fact complete and the same
+* close connection
+
